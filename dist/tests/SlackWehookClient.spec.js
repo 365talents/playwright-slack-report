@@ -28,6 +28,7 @@ const test = test_1.test.extend({
         ],
         tests: [
             {
+                file: 'tests/smoke.spec.ts',
                 suiteName: 'checkout',
                 name: 'add to cart',
                 browser: 'chromium',

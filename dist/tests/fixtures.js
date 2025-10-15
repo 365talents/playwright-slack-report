@@ -24,6 +24,7 @@ exports.test = test_1.test.extend({
         failures: [],
         tests: [
             {
+                file: 'tests/accounts.spec.ts',
                 suiteName: 'accounts',
                 name: 'overdue will incur a penalty',
                 startedAt: new Date().toISOString(),
@@ -48,6 +49,7 @@ exports.test = test_1.test.extend({
         ],
         tests: [
             {
+                file: 'tests/t1.spec.ts',
                 suiteName: 'tests/t1.spec.ts',
                 name: 'basic test failure ',
                 status: 'failed',
@@ -74,6 +76,7 @@ exports.test = test_1.test.extend({
         failures: [],
         tests: [
             {
+                file: 'tests/accounts.spec.ts',
                 suiteName: 'accounts',
                 name: 'overdue will incur a penalty',
                 startedAt: new Date().toISOString(),
@@ -83,6 +86,7 @@ exports.test = test_1.test.extend({
                 status: 'passed',
             },
             {
+                file: 'tests/accounts.spec.ts',
                 suiteName: 'accounts',
                 name: 'withdrawal removes value from balance',
                 startedAt: new Date().toISOString(),
@@ -92,6 +96,7 @@ exports.test = test_1.test.extend({
                 status: 'failed',
             },
             {
+                file: 'tests/accounts.spec.ts',
                 suiteName: 'accounts',
                 name: 'withdrawal removes value from balance',
                 startedAt: new Date().toISOString(),
